@@ -2,11 +2,19 @@ package me.zhiyong.aigo.examples.letcode;
 
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by afanty on 17-2-14.
  */
 public class TwoSum {
+
+    public int[] twoSum2(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        map.put(1, null);
+        return null;
+    }
 
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
